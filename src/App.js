@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import Form from './components/Form';
 
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <header>
         <h1>Max´s Todo List</h1>
       </header>
+      <Form />
     </div>
   );
 }
