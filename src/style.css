@@ -27,7 +27,13 @@ form button {
   border: none;
   background: white;
 }
+form input {
+  width: 40vw;
+  height: 5vh;
+}
 form button {
+  width: 10vw;
+  height: 5vh;
   color: #ff6f47;
   background: #f7fffe;
   cursor: pointer;
@@ -106,6 +112,7 @@ select {
   box-shadow: none;
   border: 0 !important;
   background-image: none;
+  
 }
 
 /* Custom Select */
