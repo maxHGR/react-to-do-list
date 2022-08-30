@@ -29,6 +29,7 @@ form button {
 }
 form input {
   width: 40vw;
+  margin-left: 5vw;
 }
 form button {
   

@@ -2,9 +2,13 @@ import React from 'react';
 
 
 const Form = () => {
+  const inputTextHandler = () => {
+    console.log(e);
+  }; 
+
   return(
     <form>
-      <input type="text" className="todo-input"></input>
+      <input onChange={inputTextHandler} type="text" className="todo-input"></input>
         <button>
           <i className="fas fa-plus-square"></i>
         </button>
