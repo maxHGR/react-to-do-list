@@ -84,11 +84,12 @@ form button:hover {
 }
 .todo-item-container {
   display: flex;
-  margin: 5vh;
-  background-color: green;
+  justify-content: center;
+  margin: 1vh;
 }
 .todo-item {
   padding: 1rem 1.5rem;
+  min-width: 150px;
   background-color: white;
   color: black;
 }
