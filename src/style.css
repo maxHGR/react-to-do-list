@@ -82,8 +82,15 @@ form button:hover {
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+.todo-item-container {
+  display: flex;
+  margin: 5vh;
+  background-color: green;
+}
 .todo-item {
-  padding: 0rem 0.5rem;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: black;
 }
 
 .fa-trash,
