@@ -39,9 +39,12 @@ const filterHandler =()=> {
         setTodos={setTodos}
         setInputText={setInputText}
         setStatus={setStatus}
-        filteredTodos={filteredTodos}
       />
-      <TodoList setTodos={setTodos} todos={todos} />
+      <TodoList 
+      setTodos={setTodos} 
+      todos={todos}
+      filteredTodos={filteredTodos} 
+      />
     </div>
   );
 };
